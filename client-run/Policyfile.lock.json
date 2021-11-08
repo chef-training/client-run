@@ -1,0 +1,51 @@
+{
+  "revision_id": "e1f54fc3626eb841c07ca1c2ab51d6ceac5e5999e61f7d849759ac1ecf7825a7",
+  "name": "client-run",
+  "run_list": [
+    "recipe[client-run::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "client-run": {
+      "version": "0.1.0",
+      "identifier": "7b9b6334944f264f1fee4826afc2ad43c2994ddf",
+      "dotted_decimal_identifier": "34792272521613094.22271631433314242.190506539240927",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": null,
+        "working_tree_clean": true,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "client-run",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "client-run (0.1.0)": [
+
+      ]
+    }
+  }
+}
